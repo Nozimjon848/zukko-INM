@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body id="body">
+  <nav id="nav">
+    <div class="logo">
+      <p>Zukko</p>
+    </div>
+    <div class="a" id="a">
+      <a href="#IT">IT</a>
+      <a href="#INGLIZ">INGLIZ TILI</a>
+      <a href="#MATEMATIKA">MATEMATIKA</a>
+      <a href="#RUS">RUS TILI</a>
+      <a href="#TARMOQLAR">TARMOQLAR</a>
+      <a href="#MANZIL">MANZIL</a>
+    </div>
+    <div class="tab">
+      <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          MENU
+        </a>
+
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">IT</a></li>
+          <li><a class="dropdown-item" href="#">INGLIZ TILI</a></li>
+          <li><a class="dropdown-item" href="#"> MATEMATIKA</a></li>
+          <li><a class="dropdown-item" href="#"> RUS TILI</a></li>
+          <li><a class="dropdown-item" href="#"> MANZIL</a></li>
+          <li><a class="dropdown-item" href="#"> CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="icon">
+      <div class="b" id="b">🌙</div>
+      <div class="b" id="d">☀️</div>
+    </div>
+  </nav>
+  <div class="home">
+    <div class="brky"></div>
+    <div class="text">
+      <h1>Kelajagingizni biz bilan yarating!</h1>
+      <p>
+        Amaliy dasturlash kurslari bilan to'la platformaga xush kelibsiz. Bu
+        erda siz barcha pullik kurslarni bepul o'rganishingiz mumkin.
+      </p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">
+        Ro'yhatdan o'ting
+      </button>
+      <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="registerModalLabel">
+                Ro'yhatdan o'tish
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Yopish"></button>
+            </div>
+            <div class="modal-body">
+              <form id="registrationForm">
+                <div class="mb-3">
+                  <label for="username" class="form-label">Foydalanuvchi nomi</label>
+                  <input type="text" class="form-control" id="username" name="username" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" required />
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Parol</label>
+                  <input type="password" class="form-control" id="password" name="password" required />
+                </div>
+                <div class="mb-3">
+                  <label for="confirmPassword" class="form-label">Parolni tasdiqlash</label>
+                  <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required />
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">
+                Bekor qilish
+              </button>
+              <button type="submit" class="btn btn-primary btn-sm" form="registrationForm">
+                Yuborish
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="img">
+      <img src="https://codemy.uz/static/media/aaaaaaa.fd0b1a8eddefe1fd0226.png" alt="" />
+    </div>
+  </div>
+  <div class="IT" id="IT">
+    <div class="container py-5">
+      <h2 class="text-center text-success mb-4">Frontend Technologies</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="28753ddf79d70042ba86564947e13bf5_1_-removebg-preview.png" alt="JavaScript" class="mb-3" />
+              <h5 class="card-title">JavaScript Dasturlash tili</h5>
+              <p class="card-text text-muted">Frontend and Backend</p>
+              <a href="next.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="i_1_-removebg-preview (1).png" width="80vh" alt="React" class="mb-3" />
+              <h5 class="card-title">React</h5>
+              <p class="card-text text-muted">JavaScript Kutubxonasi</p>
+              <a href="next.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="i_1_-removebg-preview.png" width="90vh" alt="CSS" class="mb-3" />
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text text-muted">Style</p>
+              <a href="next.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="i_2_-removebg-preview.png" width="100%" alt="HTML" class="mb-3" />
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text text-muted">HTML</p>
+              <a href="next.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="28753ddf79d70042ba86564947e13bf5_1_-removebg-preview.png" width="80vh" alt="HTML"
+                class="mb-3" />
+              <h5 class="card-title">JS</h5>
+              <p class="card-text text-muted">JavaScript</p>
+              <a href="next.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="112960772-5c856280-9162-11eb-92f9-83b2ae3f34a8_1_-removebg-preview.png" width="90vh" alt="HTML"
+                class="mb-3" />
+              <h5 class="card-title">Python</h5>
+              <p class="card-text text-muted">Python</p>
+              <a href="next.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ingliz" id="INGLIZ">
+    <div class="container py-5">
+      <h2 class="text-center text-success mb-4">Ingliz tili</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+             <h1>📖</h1>
+              <h5 class="card-title">Gramatika</h5>
+              <p class="card-text text-muted">Ingliz tili</p>
+              <a href="ing.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <h1>🗣️</h1>
+              <h5 class="card-title">Erkin Sozlash</h5>
+              <p class="card-text text-muted">Ingliz tili</p>
+              <a href="ing.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <h1>📝</h1>
+              <h5 class="card-title">Erkin Yozish</h5>
+              <p class="card-text text-muted">Ingliz tili</p>
+              <a href="ing.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="i_1_-removebg-preview (2).png" width="55vh" alt="HTML" class="mb-3" />
+              <h5 class="card-title">IELTS C1, B2</h5>
+              <p class="card-text text-muted">Ingliz tili</p>
+              <a href="ing.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="28753ddf79d70042ba86564947e13bf5_1_-removebg-preview.png" width="80vh" alt="HTML"
+                class="mb-3" />
+              <h5 class="card-title">Sefr C1, B2</h5>
+              <p class="card-text text-muted">Ingliz tili</p>
+              <a href="ing.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="i_2_-removebg-preview (1).png" width="90vh" alt="HTML" class="mb-3" />
+              <h5 class="card-title">100,000,000 sozlar anonimi</h5>
+              <p class="card-text text-muted">Ingliz tili</p>
+              <a href="ing.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="matem" id="MATEMATIKA">
+    <div class="container py-5">
+      <h2 class="text-center text-success mb-4">Matematika</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <h1>📊</h1>
+              <h5 class="card-title">Folmulalar</h5>
+              <p class="card-text text-muted">Matematika 1 mln+</p>
+              <a href="mat.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <h1>A</h1>
+              <h5 class="card-title">Algebra</h5>
+              <p class="card-text text-muted">Matematika tez hissoblash</p>
+              <a href="mat.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">            
+                <h1>G</h1>
+              <h5 class="card-title">Geomertya</h5>
+              <p class="card-text text-muted">Matematika toliq orgatish</p>
+              <a href="mat.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <h1>📑</h1>
+              <h5 class="card-title">Matematika olimpiadalariga tayorlash</h5>
+              <p class="card-text text-muted">Tayyorlav</p>
+              <a href="mat.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <h1>📈</h1>
+              <h5 class="card-title">0dan → oxirigacha</h5>
+              <p class="card-text text-muted">Matekatiklar</p>
+              <a href="mat.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <h1>🧮</h1>
+              <h5 class="card-title">Hayolda tez hissoblash</h5>
+              <p class="card-text text-muted">Matematika</p>
+              <a href="mat.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="RUS" id="RUS">
+    <div class="container py-5">
+      <h2 class="text-center text-success mb-4">Rus tili</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <h1>📖</h1>
+              <h5 class="card-title">Gramatika</h5>
+              <p class="card-text text-muted">Toliq gramatika</p>
+              <a href="rus.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+           <h1>🗣️</h1>
+              <h5 class="card-title">Erkin Sozlash</h5>
+              <p class="card-text text-muted">RUS TILI</p>
+              <a href="rus.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <h1>📝</h1>
+              <h5 class="card-title">Erkin Yozish</h5>
+              <p class="card-text text-muted">RUS TILI</p>
+              <a href="rus.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="i_1_-removebg-preview (2).png" width="55vh" alt="HTML" class="mb-3" />
+              <h5 class="card-title">Serficat</h5>
+              <p class="card-text text-muted">RUS TILI</p>
+              <a href="rus.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+              <img src="28753ddf79d70042ba86564947e13bf5_1_-removebg-preview.png" width="80vh" alt="HTML"
+                class="mb-3" />
+              <h5 class="card-title">Toliq rus tilida yozish</h5>
+              <p class="card-text text-muted">RUS TILI</p>
+              <a href="rus.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg text-center rounded-3 transition-all">
+            <div class="card-body">
+           <h1>🗃️</h1>
+              <h5 class="card-title">100 mln + sozlar anonimi</h5>
+              <p class="card-text text-muted">RUS TILI</p>
+              <a href="rus.html" class="btn btn-primary">Ma'lumot →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tarmoq" id="TARMOQLAR">
+    <div class="container">
+      <div class="social-section">
+        <h2>Bizni ijtimoiy tarmoqlarda ham kuzating</h2>
+        <p>
+          Akademiyamiz haqida ma'lumotlarni endilikda ijtimoiy tarmoqlarda ham
+          kuzating.
+        </p>
+
+        <div class="social-buttons">
+          <!-- Telegram Button -->
+          <a href="https://t.me/ZukkoINM" class="social-button" target="_blank">
+            <span class="social-icon"><i class="bi bi-telegram"></i></span>
+            <span>Telegram Guruh</span>
+            <span>→</span>
+          </a>
+          <!-- Instagram Button -->
+          <a href="https://t.me/ZukkoInm_Bot" class="social-button" target="_blank">
+            <span class="social-icon"><i class="bi bi-instagram"></i></span>
+            <span>Telegram Bot</span>
+            <span>→</span>
+          </a>
+          <!-- LinkedIn Button -->
+          <a href="https://www.linkedin.com/in/your_profile" class="social-button" target="_blank">
+            <span class="social-icon"><i class="bi bi-linkedin"></i></span>
+            <span>Instagram</span>
+            <span>→</span>
+          </a>
+          <!-- YouTube Button -->
+          <a href="http://www.youtube.com/@Zukko_international_school" class="social-button" target="_blank">
+            <span class="social-icon"><i class="bi bi-youtube"></i></span>
+            <span>YouTube</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="manzil" id="MANZIL">
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Form qismi -->
+        <div class="col-md-6">
+          <h2 class="text-center text-success">Biz siz bilan bog'lanamiz!</h2>
+          <form id="contactForm" onsubmit="generateTelegramLink(event)">
+            <div class="mb-3">
+              <label for="firstName" class="form-label">Ismingiz</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Ism" required />
+            </div>
+            <div class="mb-3">
+              <label for="lastName" class="form-label">Familyangiz</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Familiya" required />
+            </div>
+            <div class="mb-3">
+              <label for="phoneNumber" class="form-label">Telefon raqamingiz</label>
+              <input type="tel" class="form-control" id="phoneNumber" placeholder="(99)-999-99-99" required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Murojatingiz</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Murojatingiz ..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success w-100">
+              Yuborish
+            </button>
+          </form>
+          <p class="mt-3 text-center">
+            <strong>Farg'ona viloyati, Rishton tumanida
+              joylashgan</strong><br />
+            <span class="text-success">ZUKKO INM</span><br />
+            Manzil: 1-maktab qarshisida
+          </p>
+        </div>
+        <!-- Xarita qismi -->
+        <div class="col-md-6" >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d759.9784235928022!2d71.2685632696301!3d40.366437998215474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIxJzU5LjIiTiA3McKwMTYnMDkuMiJF!5e0!3m2!1sen!2sus!4v1733228858693!5m2!1sen!2sus"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Formani qayta yuklashni to'xtatish
+
+          // Foydalanuvchi kiritgan ma'lumotlarni olish
+          const firstName = document.getElementById("firstName").value;
+          const lastName = document.getElementById("lastName").value;
+          const phoneNumber = document.getElementById("phoneNumber").value;
+          const message = document.getElementById("message").value;
+
+          // Telegramga yuboriladigan xabarni shakllantirish
+          const botToken = "7823122370:AAEN2JgrEUF7KGeiBp_4puVEzVxupXc1Nec";
+          const chatId = "7470836911";
+          const text = `
+<b>Yangi murojaat:</b>
+<b>Ismi:</b> ${firstName}
+<b>Familyasi:</b> ${lastName}
+<b>Telefon:</b> ${phoneNumber}
+<b>Murojati:</b> ${message}
+          `;
+
+          // API orqali xabar yuborish
+          fetch(
+            `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
+              text
+            )}&parse_mode=HTML`
+          )
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.ok) {
+                document.getElementById("responseMessage").innerHTML =
+                  "<p class='text-success'>Murojaatingiz muvaffaqiyatli yuborildi!</p>";
+                document.getElementById("contactForm").reset();
+              } else {
+                document.getElementById(
+                  "responseMessage"
+                ).innerHTML = `<p class='text-danger'>Xatolik yuz berdi: ${data.description}</p>`;
+              }
+            })
+            .catch((error) => {
+              document.getElementById("responseMessage").innerHTML =
+                "<p class='text-danger'>Telegramga ulanishda xatolik yuz berdi.</p>";
+              console.error("Xato:", error);
+            });
+        });
+    </script>
+  </div>
+  <footer id="footer" >
+    <div class="footer-container">
+      <div class="footer-logo">
+        <p>Zukko</p>
+      </div>
+      <div class="footer-links">
+        <a href="#IT">IT</a>
+        <a href="#INGLIZ">INGLIZ TILI</a>
+        <a href="#MATEMATIKA">MATEMATIKA</a>
+        <a href="#RUS">RUS TILI</a>
+        <a href="#TARMOQLAR">TARMOQLAR</a>
+        <a href="#MANZIL">MANZIL</a>
+        <a href="#CONTACT">CONTACT</a>
+      </div>
+      <div class="footer-socials">
+        <a href="#" class="social-icon">🌐</a>
+        <a href="#" class="social-icon">📱</a>
+        <a href="#" class="social-icon">📧</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Zukko. Barcha huquqlar himoyalangan.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
